@@ -10,12 +10,13 @@ def calculate_trace_threshold(log):
     delta= 0.05
     z=1-alpha
 
-    threshold=1/2/delta * (-2*delta**2 + z**2 +math.sqrt(z))
+    threshold=1/(2*delta )* (-2*delta**2 + z**2 +math.sqrt(z))
     print("Traces Threshold :%s" %(threshold))
     return threshold
 
 def trace_sampling(log):
     accummulated=0
+    epsilon_in_minutes=20 # is a parameter for their experiment
     log_cases_count = log['case:concept:name'].unique().size
     activity_list=[]
     starting_activity_list=[]
@@ -87,7 +88,7 @@ def trace_sampling(log):
 
             #changes in the average cycle time by epsilon
             #timedelta in hours
-            cycle_time=(current_case['time:timestamp'].iloc[-1]- current_case['time:timestamp'].iloc[0])/ pd.Timedelta('1 hour')
+            cycle_time=(current_case['time:timestamp'].iloc[-1]- current_case['time:timestamp'].iloc[0])/ pd.Timedelta('1 minute')
 
             if new_information_gained:
                 cycle_time_list=cycle_time_list.append(pd.Series(cycle_time), ignore_index=True)
@@ -95,8 +96,8 @@ def trace_sampling(log):
                 avg_cycle_time=cycle_time_list.sum()/cycle_time_list.size
                 avg_new=(cycle_time_list.sum()+cycle_time)/(cycle_time_list.size+1)
                 #todo: make the cycle time change to be epsilon
-                diff = math.fabs(avg_new-avg_cycle_time)/avg_cycle_time
-                if diff >0.05:
+                diff = math.fabs(avg_new-avg_cycle_time)
+                if diff >epsilon_in_minutes:
                     new_information_gained = True
                     cycle_time_list=cycle_time_list.append(pd.Series(cycle_time), ignore_index=True)
 
@@ -109,16 +110,16 @@ def trace_sampling(log):
                     new_avg_edge_time = (sum(edge_time_list[edge])+ edges[edge])/ (len(edge_time_list[edge])+1)
 
                     if avg_edge_time >0:
-                        diff = math.fabs(avg_edge_time - new_avg_edge_time) / avg_edge_time
-                        # todo: make the edge time change to be epsilon
-                        if diff > 0.05:
+                        diff = math.fabs(avg_edge_time - new_avg_edge_time)
+                        # make the edge time change to be epsilon
+                        if diff > epsilon_in_minutes:
                             new_information_gained = True
                             edge_time_list[edge].append(edges[edge])
                 else:
                     new_information_gained = True
                     edge_time_list[edge]=[edges[edge]]
 
-            #todo: update counters
+            # update counters
             if not new_information_gained:
                 cases_without_new_information+=1
                 cases_with_new_information.append(case)
@@ -131,7 +132,7 @@ def trace_sampling(log):
 
         """End of for over the cases in the current sample"""
         ######################
-
+    print("end of while loop")
     """End of while loop"""
     """#################"""
     if len(cases_with_new_information) < log_cases_count:

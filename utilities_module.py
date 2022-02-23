@@ -36,7 +36,7 @@ def get_dfg_time(data):
     data['time:timestamp_2'] = pd.to_datetime(data['time:timestamp_2'],utc=True)
 
     data['difference'] = (data['time:timestamp_2'] - data['time:timestamp']).astype(
-        'timedelta64[h]')   # in  hours
+        'timedelta64[m]')   # in  minutes
 
     #reformating the data to build the dfg
     data=data.set_index(['concept:name', 'concept:name_2'])
