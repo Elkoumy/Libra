@@ -5,9 +5,13 @@ from anonymization import draw_anonymized_sample
 import random
 from utilities_module import get_dfg_time
 
-def binomial_confidence_calculator(log):
-    threshold=10
+def calculate_trace_threshold(log):
+    alpha=0.01
+    delta= 0.05
+    z=1-alpha
 
+    threshold=1/2/delta * (-2*delta**2 + z**2 +math.sqrt(z))
+    print("Traces Threshold :%s" %(threshold))
     return threshold
 
 def trace_sampling(log):
@@ -23,8 +27,8 @@ def trace_sampling(log):
 
     cases_with_new_information =[] #accumulation of cases to be sampled.
 
-    # todo: calculate the statistical threshold
-    threshold = binomial_confidence_calculator(log)
+    # calculate the statistical threshold
+    threshold = calculate_trace_threshold(log)
 
 
     while(cases_without_new_information<threshold):

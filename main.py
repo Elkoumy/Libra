@@ -4,8 +4,7 @@ import sys
 import warnings
 import pandas as pd
 
-
-
+from math import sqrt
 
 
 
@@ -22,11 +21,12 @@ if __name__ == "__main__":
         warnings.simplefilter("ignore")
 
 
-    #TODO: read event log
+    # read event log
     log=read_event_log('data/Sepsis.csv')
     #todo: 2 layers sampling with Anonymization
     sampled= trace_sampling(log)
     #todo: performance measures
     print("**")
+
 
 
