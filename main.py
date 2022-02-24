@@ -23,7 +23,7 @@ if __name__ == "__main__":
 
     start_time = time.time()
     # read event log
-    log=read_event_log('data/Sepsis.csv')
+    log=read_event_log('data/Traffic.csv')
     #todo: 2 layers sampling with Anonymization
     sampled= trace_sampling(log)
 
