@@ -3,7 +3,9 @@ import pandas as pd
 import math
 from anonymization import draw_anonymized_sample
 import random
-from utilities_module import get_dfg_time
+from utilities_module import get_dfg_time, get_relative_time
+
+import time
 
 def calculate_trace_threshold(log):
     alpha=0.01
@@ -16,7 +18,7 @@ def calculate_trace_threshold(log):
 
 def trace_sampling(log):
     accummulated=0
-    epsilon_in_minutes=20 # is a parameter for their experiment
+    epsilon_in_minutes=100 # is a parameter for their experiment
     log_cases_count = log['case:concept:name'].unique().size
     activity_list=[]
     starting_activity_list=[]
@@ -30,7 +32,7 @@ def trace_sampling(log):
 
     # calculate the statistical threshold
     threshold = calculate_trace_threshold(log)
-
+    total_get_dfg_time=0
 
     while(cases_without_new_information<threshold):
         anonymized_samples_count=0
@@ -38,8 +40,7 @@ def trace_sampling(log):
         sample =draw_anonymized_sample(log)
         anonymized_samples_count+=1
 
-
-
+        sample_dfg=get_dfg_time(sample)
 
 
         """##############################################"""
@@ -47,10 +48,11 @@ def trace_sampling(log):
         #We can do that by selecting the trace ids in a list, then picking up randomly from that list.
         case_ids=sample['case:concept:name'].unique().tolist()
         random.shuffle(case_ids)
-
+        print("starting loop over cases")
+        loop_start_time= time.time()
         for case in case_ids:
-
-
+            print("***************************")
+            print("Loop iteration")
             current_case= sample[sample['case:concept:name']==case]
             if current_case.shape[0]==0:
                 break
@@ -59,12 +61,15 @@ def trace_sampling(log):
 
 
             #new event
+            start_time=time.time()
             activities= current_case['concept:name'].unique().tolist()
             for activity in activities:
                 if activity not in activity_list:
                     new_information_gained=True
                     activity_list.append(activity)
 
+            end_time = time.time()
+            print("loop over unique activities: %s Seconds" % (str(end_time - start_time)))
             #new starting event
             start_activity=current_case['concept:name'].iloc[0]
             if start_activity not in starting_activity_list:
@@ -80,12 +85,21 @@ def trace_sampling(log):
 
             #new edge
             new_edge=False
-            edges=get_dfg_time(current_case)
+            start_time=time.time()
+
+            edges=sample_dfg.loc[case].to_dict()['difference']
+            # edges=edges.groupby(['concept:name', 'concept:name_2']).difference.sum().to_dict()
+            end_time = time.time()
+            total_get_dfg_time+=end_time-start_time
+            print("get dfg time: %s Seconds" % (str(end_time - start_time)))
+
+            start_time=time.time()
             for edge in edges:
                 if edge not in edge_list:
                     new_information_gained= True
                     edge_list.append(edge)
-
+            end_time = time.time()
+            print("new edge loop : %s Seconds" % (str(end_time - start_time)))
             #changes in the average cycle time by epsilon
             #timedelta in hours
             cycle_time=(current_case['time:timestamp'].iloc[-1]- current_case['time:timestamp'].iloc[0])/ pd.Timedelta('1 minute')
@@ -95,13 +109,13 @@ def trace_sampling(log):
             else:
                 avg_cycle_time=cycle_time_list.sum()/cycle_time_list.size
                 avg_new=(cycle_time_list.sum()+cycle_time)/(cycle_time_list.size+1)
-                #todo: make the cycle time change to be epsilon
+                #make the cycle time change to be epsilon
                 diff = math.fabs(avg_new-avg_cycle_time)
                 if diff >epsilon_in_minutes:
                     new_information_gained = True
                     cycle_time_list=cycle_time_list.append(pd.Series(cycle_time), ignore_index=True)
 
-
+            start_time=time.time()
             #changes average time on edge by epsilon
             for edge in list(edges.keys()):
                 if edge in edge_time_list:
@@ -118,6 +132,8 @@ def trace_sampling(log):
                 else:
                     new_information_gained = True
                     edge_time_list[edge]=[edges[edge]]
+            end_time=time.time()
+            print("edge average time loop: %s Seconds" %(str(end_time - start_time)))
 
             # update counters
             if not new_information_gained:
@@ -130,11 +146,17 @@ def trace_sampling(log):
             if cases_without_new_information>=threshold:
                 break
 
+
+        loop_end_time=time.time()
+
+        print("edge average time loop: %s Seconds" % (str(loop_end_time - loop_start_time)))
         """End of for over the cases in the current sample"""
         ######################
     print("end of while loop")
     """End of while loop"""
     """#################"""
+
+    print("total_get_dfg_time %s"%(total_get_dfg_time))
     if len(cases_with_new_information) < log_cases_count:
         sample=log[log['case:concept:name'].isin(cases_with_new_information)]
         return sample
