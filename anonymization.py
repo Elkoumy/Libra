@@ -21,7 +21,7 @@ def draw_sample(log, prob):
     selected_idx = np.random.choice(case_ids.shape[0], int(prob * case_ids.shape[0]))
     selected_cases = case_ids[selected_idx]
     sample = log[log['case:concept:name'].isin(selected_cases)]
-
+    print("sampled cases: %s"%(len(selected_cases)))
     return sample
 
 
@@ -89,6 +89,7 @@ def relative_time_to_timestamp(data):
     data['org_timestamp']=data['time:timestamp']
 
     data['time:timestamp'] = data['time:timestamp'] + data['cumm_noise_timedelta']
+    # data['time:timestamp']=data['time:timestamp'].astype('datetime64[]')
     # data.to_csv("data_after_addition.csv", index=False)
     # Fixing the overflow of time
     data.loc[data['time:timestamp'].isnull(), 'time:timestamp'] = pd.Timestamp.max

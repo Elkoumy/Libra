@@ -23,12 +23,17 @@ if __name__ == "__main__":
 
     start_time = time.time()
     # read event log
-    log=read_event_log('data/Traffic.csv')
-    #todo: 2 layers sampling with Anonymization
+    event_log="Traffic"
+    log=read_event_log('data/%s.csv'%(event_log))
+    #2 layers sampling with Anonymization
     prob=0.1
     eps=1.0
-    sampled= trace_sampling(log, prob)
+    epsilon_in_minutes=200
 
+    sampled= trace_sampling(log, prob,epsilon_in_minutes)
+
+    sampled['time:timestamp']=sampled['time:timestamp'].astype('datetime64[s]')
+    sampled.to_csv("output/anonymized_%s.csv"%(event_log))
     end_time = time.time()
     print("execution time = % seconds" %(str(end_time - start_time)) )
 

@@ -17,21 +17,25 @@ def calculate_trace_threshold(log):
     print("Traces Threshold :%s" %(threshold))
     return threshold
 
-def trace_sampling(log,prob=0.15, eps=1.0):
+def trace_sampling(log,prob=0.15, eps=1.0,epsilon_in_minutes=10):
 
     result=[]
     #todo: loop to finish N/L
-    iterations=round(prob*log.shape[0])
+
+    iterations=round(1/prob)
+    print(iterations)
     # iterations = 3
 
     for i in range(0,iterations):
-
-        epsilon_in_minutes=100 # is a parameter for their experiment
-        # todo: draw an anonymized sample from the log
+        print("Sample Iteration: %s"%(i))
+        epsilon_in_minutes=10 # is a parameter for their experiment
+        # draw an anonymized sample from the log
         sample = draw_anonymized_sample(log, prob, eps)
         sample=sample[['case:concept:name', 'concept:name','time:timestamp','org_timestamp', 'start_event']]
+        sample['case:concept:name']= sample['case:concept:name']+str(i)
+        sample=per_lot_sampling(sample,epsilon_in_minutes)
 
-        result.append(per_lot_sampling(sample,epsilon_in_minutes))
+        result.append(sample)
     result=pd.concat(result,ignore_index=True)
 
     return result
