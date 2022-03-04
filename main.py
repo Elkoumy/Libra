@@ -25,7 +25,9 @@ if __name__ == "__main__":
     # read event log
     log=read_event_log('data/Traffic.csv')
     #todo: 2 layers sampling with Anonymization
-    sampled= trace_sampling(log)
+    prob=0.1
+    eps=1.0
+    sampled= trace_sampling(log, prob)
 
     end_time = time.time()
     print("execution time = % seconds" %(str(end_time - start_time)) )
