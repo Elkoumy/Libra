@@ -6,22 +6,38 @@ import math
 from scipy.stats import laplace
 
 
-def draw_anonymized_sample(log, prob=0.15,eps=1.0):
+def draw_anonymized_sample(log, prob=0.15,eps=1.0,c=2):
     iteration=1
-    #todo: Do we need the privacy accountant?
-    new_eps=privacy_accountant(eps,iteration)
+
+
+    # new_eps=privacy_accountant(eps,gamma, iteration)
     sample=draw_sample(log,prob)
-    anonymized_sample=anonymize_sample(sample, new_eps)
+
+    #clipping
+    clip_trace_variants(log,c)
+    anonymized_sample=anonymize_sample(sample, eps)
 
     return anonymized_sample
 
+def clip_trace_variants(log,c=2):
+
+    #todo:list trace variants and their frequencis
+    res = log.groupby('case:concept:name')['concept:name'].apply(lambda x: ';'.join(x)).reset_index()
+    res['hash'] = res['concept:name'].apply(hash)
+    cnts = res.groupby('hash')['case:concept:name'].count()
+    vars_to_keep=cnts[cnts>=c].index
+    cases_to_keep=res[res['hash'].isin(vars_to_keep)]['case:concept:name']
+
+    log=log[log['case:concept:name'].isin(cases_to_keep)]
+
+    return log
 
 def draw_sample(log, prob):
     case_ids = log['case:concept:name'].unique()
     selected_idx = np.random.choice(case_ids.shape[0], int(prob * case_ids.shape[0]))
     selected_cases = case_ids[selected_idx]
     sample = log[log['case:concept:name'].isin(selected_cases)]
-    print("sampled cases: %s"%(len(selected_cases)))
+    # print("sampled cases: %s"%(len(selected_cases)))
     return sample
 
 
@@ -53,9 +69,43 @@ def add_noise(data,eps):
     return noise
 
 
-def privacy_accountant(eps,iteration=1):
-    new_eps=eps
-    return new_eps
+def privacy_accountant(eps,gamma,iteration=1,alpha=2):
+    """
+    This function is only for poisson subsample, and alpha>=2.
+    Zhu et al 19.
+    :param eps:
+    :param gamma:
+    :param iteration:
+    :param alpha:
+    :return:
+    """
+    #b= sensitivity / epsilon
+    b=1/eps
+    term1=(1-gamma)**(alpha-1) * (alpha * gamma -gamma+1)
+    term2=math.comb(alpha,2) * gamma**2 * (1-gamma)**(alpha-2) * math.exp(eps_of_alpha(2,b))
+    term3=0
+
+    if alpha >=3:
+        for l in range(3,alpha+1):
+            term3+= math.comb(alpha,l) * (1-gamma)**(alpha-l) * gamma**l * math.exp((l-1)* eps_of_alpha(l,b))
+
+    eps_poisson= 1/(alpha-1) * math.log( term1 + term2+ 3*term3 )
+
+
+    eps_composition=iteration*eps_poisson
+    return eps_composition
+
+def eps_of_alpha(alpha, b):
+    """
+    Zhu et al 19. This works only for Laplace Mechanism
+    :param alpha:
+    :param b:
+    :return:
+    """
+
+    eps=1/(alpha-1) * math.log( alpha/(2*alpha-1) * math.exp((alpha-1)/b) + (alpha-1)/(2*alpha-1) * math.exp(-alpha/b) )
+
+    return eps
 
 
 def relative_time_to_timestamp(data):

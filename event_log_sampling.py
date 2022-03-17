@@ -1,7 +1,7 @@
 import pandas as pd
 
 import math
-from anonymization import draw_anonymized_sample
+from anonymization import draw_anonymized_sample, privacy_accountant
 import random
 from utilities_module import get_dfg_time
 
@@ -14,23 +14,23 @@ def calculate_trace_threshold(log):
     z=1-alpha
 
     threshold=1/(2*delta )* (-2*delta**2 + z**2 +math.sqrt(z))
-    print("Traces Threshold :%s" %(threshold))
+    # print("Traces Threshold :%s" %(threshold))
     return threshold
 
-def trace_sampling(log,prob=0.15, eps=1.0,epsilon_in_minutes=10):
+def main_anonymization(log,gamma=0.15, eps=1.0,epsilon_in_minutes=10, alpha=2,c=2):
 
     result=[]
     #todo: loop to finish N/L
 
-    iterations=round(1/prob)
-    print(iterations)
+    iterations=round(1/gamma)
+    # print(iterations)
     # iterations = 3
 
     for i in range(0,iterations):
-        print("Sample Iteration: %s"%(i))
-        epsilon_in_minutes=10 # is a parameter for their experiment
+        # print("Sample Iteration: %s"%(i))
+        # epsilon_in_minutes=10 # is a parameter for their experiment
         # draw an anonymized sample from the log
-        sample = draw_anonymized_sample(log, prob, eps)
+        sample = draw_anonymized_sample(log, gamma, eps,c)
         sample=sample[['case:concept:name', 'concept:name','time:timestamp','org_timestamp', 'start_event']]
         sample['case:concept:name']= sample['case:concept:name']+str(i)
         sample=per_lot_sampling(sample,epsilon_in_minutes)
@@ -38,7 +38,9 @@ def trace_sampling(log,prob=0.15, eps=1.0,epsilon_in_minutes=10):
         result.append(sample)
     result=pd.concat(result,ignore_index=True)
 
-    return result
+    eps_after_composition= privacy_accountant(eps,gamma,iterations, alpha)
+
+    return result, eps_after_composition
 
 
 
@@ -84,12 +86,12 @@ def per_lot_sampling(sample, epsilon_in_minutes):
     #iterate over traces in the log the traces should be picked randomly.
     #We can do that by selecting the trace ids in a list, then picking up randomly from that list.
     case_ids=sample['case:concept:name'].unique().tolist()
-    print("len of case_ids %s"%(len(case_ids)))
+    # print("len of case_ids %s"%(len(case_ids)))
 
     random.shuffle(case_ids)
 
     iteration=0
-    print("starting loop over cases")
+    # print("starting loop over cases")
     loop_start_time= time.time()
     for case in case_ids:
         # print("iteration %s" %(iteration))
@@ -218,12 +220,12 @@ def per_lot_sampling(sample, epsilon_in_minutes):
     # """End of while loop"""
     """#################"""
 
-    print("total_get_dfg_time %s"%(total_get_dfg_time))
-    print("total_edge_average_time_loop %s" %(total_edge_average_time_loop))
-    print("total_loop_over_cases %s"%(total_loop_over_cases))
-    print("total_new_edge_loop %s"%(total_new_edge_loop))
-    print("total_new_event_loop %s"%(total_new_event_loop))
-    print("total part time %s"%(part_time))
+    # print("total_get_dfg_time %s"%(total_get_dfg_time))
+    # print("total_edge_average_time_loop %s" %(total_edge_average_time_loop))
+    # print("total_loop_over_cases %s"%(total_loop_over_cases))
+    # print("total_new_edge_loop %s"%(total_new_edge_loop))
+    # print("total_new_event_loop %s"%(total_new_event_loop))
+    # print("total part time %s"%(part_time))
 
     if len(cases_with_new_information) < sample_cases_count:
         res=sample[sample['case:concept:name'].isin(cases_with_new_information)]
