@@ -29,7 +29,7 @@ def anonymize_event_log(event_log, eps=2, gamma=0.05, alpha=5,epsilon_in_minutes
 
         #export XES file
         log = conversion_factory.apply(sampled)
-        output_name="%s_eps%s.xes" % (event_log, round(eps_after_composition, 2))
+        output_name="%s_eps%s" % (event_log, round(eps_after_composition, 2))
         xes_exporter.export_log(log, os.path.join(out_dir, output_name + ".xes"))
 
 
