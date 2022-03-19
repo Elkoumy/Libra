@@ -110,5 +110,5 @@ for data in datasets:
                              epsilon_in_minutes,
                                                        delta))
 
-            # time.sleep(1)
-            # subprocess.Popen(("sbatch %s" % job_name).split())
+            time.sleep(1)
+            subprocess.Popen(("sbatch %s" % job_name).split())
