@@ -10,8 +10,11 @@ from pm4py.objects.log.exporter.xes import factory as xes_exporter
 
 def anonymize_event_log(event_log, eps=2, gamma=0.05, alpha=5,epsilon_in_minutes=20,delta=1e-4):
     start_time = time.time()
+    cur_dir = os.path.dirname(os.path.realpath(__file__))
+    data_dir = os.path.join(cur_dir, 'data')
+    out_dir = os.path.join(cur_dir, "output")
 
-    log = read_event_log_xes('data/%s.xes' % (event_log))
+    log = read_event_log_xes(os.path.join(data_dir, event_log + ".xes"))
 
     sampled, eps_after_composition = main_anonymization(log, gamma, eps, epsilon_in_minutes, alpha, delta)
     if not type(sampled) == type(0):
@@ -26,7 +29,9 @@ def anonymize_event_log(event_log, eps=2, gamma=0.05, alpha=5,epsilon_in_minutes
 
         #export XES file
         log = conversion_factory.apply(sampled)
-        xes_exporter.export_log(log, "output/%s_eps%s.xes" % (event_log, round(eps_after_composition, 2)))
+        output_name="%s_eps%s.xes" % (event_log, round(eps_after_composition, 2))
+        xes_exporter.export_log(log, os.path.join(out_dir, output_name + ".xes"))
+
 
         # sampled.to_csv("output/%s_eps%s.csv"%(event_log,round(eps_after_composition,2)))
         end_time = time.time()
