@@ -4,7 +4,7 @@ import math
 from anonymization import draw_anonymized_sample, privacy_accountant
 import random
 from utilities_module import get_dfg_time
-
+from anonymization import clip_trace_variants, clip_rare_traces
 
 import time
 
@@ -17,9 +17,14 @@ def calculate_trace_threshold(log):
     # print("Traces Threshold :%s" %(threshold))
     return threshold
 
-def main_anonymization(log,gamma=0.15, eps=1.0,epsilon_in_minutes=10, alpha=2,c=2):
+def main_anonymization(log,gamma=0.15, eps=1.0,epsilon_in_minutes=10, alpha=2,delta=1e-4):
 
     result=[]
+
+    #Todo: Clip trace variants < C
+    log = clip_rare_traces(log,eps,delta)
+
+
     #todo: loop to finish N/L
 
     iterations=round(1/gamma)
@@ -30,13 +35,14 @@ def main_anonymization(log,gamma=0.15, eps=1.0,epsilon_in_minutes=10, alpha=2,c=
         # print("Sample Iteration: %s"%(i))
         # epsilon_in_minutes=10 # is a parameter for their experiment
         # draw an anonymized sample from the log
-        sample = draw_anonymized_sample(log, gamma, eps,c)
-        sample=sample[['case:concept:name', 'concept:name','time:timestamp','org_timestamp', 'start_event']]
-        sample['case:concept:name']= sample['case:concept:name']+str(i)
-        sample=per_lot_sampling(sample,epsilon_in_minutes)
-
-        result.append(sample)
+        sample = draw_anonymized_sample(log, gamma, eps)
+        if sample.shape[0]>0:
+                sample=sample[['case:concept:name', 'concept:name','time:timestamp','org_timestamp', 'start_event']]
+                sample['case:concept:name']= sample['case:concept:name']+str(i)
+                sample=per_lot_sampling(sample,epsilon_in_minutes)
+                result.append(sample)
     result=pd.concat(result,ignore_index=True)
+
 
     eps_after_composition= privacy_accountant(eps,gamma,iterations, alpha)
 

@@ -23,9 +23,9 @@ if __name__ == "__main__":
 
     start_time = time.time()
     # read event log
-    event_log="Sepsis"
+    event_log="Traffic"
     epsilon_in_minutes = 200
-    c=3 #clipping
+    c=5#clipping
     log=read_event_log('data/%s.csv'%(event_log))
     #2 layers sampling with Anonymization
     # for gamma in [0.01,0.05,0.1,0.2]:
@@ -54,12 +54,13 @@ if __name__ == "__main__":
     #             except:
     #                 print("Error")
 
-    gamma=0.1
-    eps=0.1
-    epsilon_in_minutes=200
-    alpha=10
+    gamma=0.05
+    eps=0.75
+    epsilon_in_minutes=20
+    alpha=5
+    delta=1e-4
 
-    sampled, eps_after_composition= main_anonymization(log, gamma,eps,epsilon_in_minutes,alpha,c)
+    sampled, eps_after_composition= main_anonymization(log, gamma,eps,epsilon_in_minutes,alpha,delta)
 
     sampled['time:timestamp']=sampled['time:timestamp'].astype('datetime64[s]')
     sampled.to_csv("output/%s_eps%s_g%s_a%s.csv"%(event_log,eps_after_composition, gamma, alpha))

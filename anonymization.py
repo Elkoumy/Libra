@@ -6,6 +6,32 @@ import math
 from scipy.stats import laplace
 
 
+
+def clip_rare_traces(log,eps,delta):
+    #estimate the number of unique trace variants
+
+    # list trace variants and their frequencis
+    res = log.groupby('case:concept:name')['concept:name'].apply(lambda x: ';'.join(x)).reset_index()
+    res['hash'] = res['concept:name'].apply(hash)
+    cnts = res.groupby('hash')['case:concept:name'].count()
+    k=0
+    k = cnts.shape[0]
+
+
+    #estimate clipping threshold
+    c=estimate_clipping_threshold(eps,k,delta)
+
+
+    #clip trace variant
+
+    vars_to_keep = cnts[cnts >= c].index
+    cases_to_keep = res[res['hash'].isin(vars_to_keep)]['case:concept:name']
+
+    log = log[log['case:concept:name'].isin(cases_to_keep)]
+
+    return log
+
+
 def draw_anonymized_sample(log, prob=0.15,eps=1.0,c=2):
     iteration=1
 
@@ -14,17 +40,23 @@ def draw_anonymized_sample(log, prob=0.15,eps=1.0,c=2):
     sample=draw_sample(log,prob)
 
     #clipping
-    clip_trace_variants(log,c)
+    # sample=clip_trace_variants(sample,c)
+
+    if sample.shape[0]==0:
+        return sample #empty sample due to clipping
+
     anonymized_sample=anonymize_sample(sample, eps)
 
     return anonymized_sample
 
 def clip_trace_variants(log,c=2):
 
-    #todo:list trace variants and their frequencis
+    #list trace variants and their frequencis
     res = log.groupby('case:concept:name')['concept:name'].apply(lambda x: ';'.join(x)).reset_index()
     res['hash'] = res['concept:name'].apply(hash)
     cnts = res.groupby('hash')['case:concept:name'].count()
+
+
     vars_to_keep=cnts[cnts>=c].index
     cases_to_keep=res[res['hash'].isin(vars_to_keep)]['case:concept:name']
 
@@ -94,6 +126,11 @@ def privacy_accountant(eps,gamma,iteration=1,alpha=2):
 
     eps_composition=iteration*eps_poisson
     return eps_composition
+
+def estimate_clipping_threshold(eps, k, delta):
+    c=1/eps * math.log( 2 * k/delta)
+    c=round(c)
+    return c
 
 def eps_of_alpha(alpha, b):
     """
