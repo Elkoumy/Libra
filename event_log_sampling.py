@@ -24,6 +24,9 @@ def main_anonymization(log,gamma=0.15, eps=1.0,epsilon_in_minutes=10, alpha=2,de
     #Todo: Clip trace variants < C
     log = clip_rare_traces(log,eps,delta)
 
+    if log.shape[0]==0:
+        print("Empty result")
+        return 0,0
 
     #todo: loop to finish N/L
 

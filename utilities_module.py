@@ -1,4 +1,8 @@
 import pandas as pd
+from pm4py.objects.log.importer.xes import factory as xes_import_factory
+from pm4py.statistics.traces.log.case_statistics import get_variant_statistics
+from pm4py.objects.conversion.log.versions.to_dataframe import get_dataframe_from_event_stream
+
 
 def read_event_log(dir):
     #TODO: enable CSV and XES files.
@@ -6,6 +10,13 @@ def read_event_log(dir):
     log['time:timestamp'] = pd.to_datetime(log['time:timestamp'], utc=True)
     return log
 
+def read_event_log_xes(dir):
+    log = xes_import_factory.apply(dir)
+    data = get_dataframe_from_event_stream(log)
+
+    # log = conversion_factory.apply(data)
+
+    return data
 
 def get_dfg_time(data):
     """
