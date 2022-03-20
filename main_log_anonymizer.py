@@ -27,7 +27,7 @@ datasets = ["CCC19_t",  "Unrineweginfectie_t", "Sepsis_t","Traffic_t", "Hospital
 
 
 epsilons = [0.05,0.75,2]
-
+b=2
 memory = 4
 exec_time="01:00:00" # 1 hour
 
@@ -41,6 +41,8 @@ gamma = 0.05
 epsilon_in_minutes = 20
 alpha = 5
 delta = 1e-4
+
+alphas=[2,10,100]
 
 
 

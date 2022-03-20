@@ -101,7 +101,7 @@ def add_noise(data,eps):
     return noise
 
 
-def privacy_accountant(eps,gamma,iteration=1,alpha=2):
+def privacy_accountant(b,gamma,iteration=1,alpha=2):
     """
     This function is only for poisson subsample, and alpha>=2.
     Zhu et al 19.
@@ -112,7 +112,7 @@ def privacy_accountant(eps,gamma,iteration=1,alpha=2):
     :return:
     """
     #b= sensitivity / epsilon
-    b=1/eps
+    # b=1/eps
     term1=(1-gamma)**(alpha-1) * (alpha * gamma -gamma+1)
     term2=math.comb(alpha,2) * gamma**2 * (1-gamma)**(alpha-2) * math.exp(eps_of_alpha(2,b))
     term3=0

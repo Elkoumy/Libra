@@ -5,7 +5,7 @@ from anonymization import draw_anonymized_sample, privacy_accountant
 import random
 from utilities_module import get_dfg_time
 from anonymization import clip_trace_variants, clip_rare_traces
-
+from anonymization import eps_of_alpha
 import time
 
 def calculate_trace_threshold(log):
@@ -17,18 +17,20 @@ def calculate_trace_threshold(log):
     # print("Traces Threshold :%s" %(threshold))
     return threshold
 
-def main_anonymization(log,gamma=0.15, eps=1.0,epsilon_in_minutes=10, alpha=2,delta=1e-4):
+def main_anonymization(log,gamma=0.15, b=2.0,epsilon_in_minutes=10, alpha=2,delta=1e-4):
 
     result=[]
 
-    #Todo: Clip trace variants < C
+    #Clip trace variants < C
+    eps=eps_of_alpha(alpha, b)
+
     log = clip_rare_traces(log,eps,delta)
 
     if log.shape[0]==0:
         print("Empty result")
         return 0,0
 
-    #todo: loop to finish N/L
+    #loop to finish N/L
 
     iterations=round(1/gamma)
     # print(iterations)
@@ -47,7 +49,7 @@ def main_anonymization(log,gamma=0.15, eps=1.0,epsilon_in_minutes=10, alpha=2,de
     result=pd.concat(result,ignore_index=True)
 
 
-    eps_after_composition= privacy_accountant(eps,gamma,iterations, alpha)
+    eps_after_composition= privacy_accountant(b,gamma,iterations, alpha)
 
     return result, eps_after_composition
 
