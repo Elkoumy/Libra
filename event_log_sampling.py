@@ -20,19 +20,21 @@ def calculate_trace_threshold(log):
 def main_anonymization(log,gamma=0.15, b=2.0,epsilon_in_minutes=10, alpha=2,delta=1e-4):
 
     result=[]
+    org_unique_cases= log['case:concept:name'].unique().size
 
     #Clip trace variants < C
     eps=eps_of_alpha(alpha, b)
 
     log = clip_rare_traces(log,eps,delta)
-
+    new_unique_cases=  log['case:concept:name'].unique().size
     if log.shape[0]==0:
         print("Empty result")
         return 0,0
 
     #loop to finish N/L
 
-    iterations=round(1/gamma)
+    # iterations=round(1/gamma *org_unique_cases/new_unique_cases)
+    iterations = round(1 / gamma )
     # print(iterations)
     # iterations = 3
 

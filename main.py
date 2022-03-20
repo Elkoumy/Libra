@@ -61,17 +61,17 @@ if __name__ == "__main__":
     #                 print("Error")
 
     gamma=0.05
-    eps=2
+    b=2
     epsilon_in_minutes=20
     alpha=5
-    delta=1e-4
+    delta=1e-3
 
-    sampled, eps_after_composition= main_anonymization(log, gamma,eps,epsilon_in_minutes,alpha,delta)
+    sampled, eps_after_composition= main_anonymization(log, gamma,b,epsilon_in_minutes,alpha,delta)
     if not type(sampled)==type(0):
         sampled['time:timestamp']=sampled['time:timestamp'].astype('datetime64[s]')
 
 
-        print("The amplified eps %s ---> Original eps = %s " % (str(round(eps_after_composition, 2)), eps))
+        print("The amplified eps %s ---> Original eps = %s " % (str(round(eps_after_composition, 2)), b))
         log = log['case:concept:name'].unique().size
         print("Log size is: %s cases" % (log))
 

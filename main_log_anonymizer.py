@@ -25,7 +25,7 @@ jobs_dir = "jobs"
 datasets = ["CCC19_t",  "Unrineweginfectie_t", "Sepsis_t","Traffic_t", "Hospital_t", "CreditReq_t", "BPIC15_t","BPIC20_t", "BPIC13_t",
 "BPIC12_t", "BPIC17_t", "BPIC14_t", "BPIC19_t" ]
 
-datasets=["Traffic_t"]
+# datasets=["Traffic_t"]
 
 
 epsilons = [0.05,0.75,2]
@@ -42,7 +42,7 @@ start_iteration=0
 gamma = 0.05
 epsilon_in_minutes = 20
 alpha = 5
-delta = 1e-4
+delta = 1e-3
 
 alphas=[2,10,100]
 
