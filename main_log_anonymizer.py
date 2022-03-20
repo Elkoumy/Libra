@@ -14,16 +14,18 @@ jobs_dir = "jobs"
               "days-hours", "days-hours:minutes" and "days-hours:minutes:seconds".
               """
 
-datasets = ["CCC19_t",  "Unrineweginfectie_t", "Sepsis_t","Traffic_t", "Hospital_t", "CreditReq_t", "BPIC15_t","BPIC20_t", "BPIC13_t",
-"BPIC12_t", "BPIC17_t", "BPIC14_t", "BPIC19_t", "BPIC18_t" ]
+# datasets = ["CCC19_t",  "Unrineweginfectie_t", "Sepsis_t","Traffic_t", "Hospital_t", "CreditReq_t", "BPIC15_t","BPIC20_t", "BPIC13_t",
+# "BPIC12_t", "BPIC17_t", "BPIC14_t", "BPIC19_t", "BPIC18_t" ]
 
 
 
 # datasets = ["CCC19_t",  "Unrineweginfectie_t", "Traffic_t", "Hospital_t", "CreditReq_t", "BPIC15_t","BPIC20_t", "BPIC13_t",
 # "BPIC12_t", "BPIC17_t", "BPIC14_t", "BPIC19_t", "BPIC18_t" ]
 
+datasets = ["CCC19_t",  "Unrineweginfectie_t", "Sepsis_t","Traffic_t", "Hospital_t", "CreditReq_t", "BPIC15_t","BPIC20_t", "BPIC13_t",
+"BPIC12_t", "BPIC17_t", "BPIC14_t", "BPIC19_t" ]
 
-# datasets=["Sepsis_t"]
+datasets=["Traffic_t"]
 
 
 epsilons = [0.05,0.75,2]
@@ -55,7 +57,9 @@ for data in datasets:
             if data in ["CCC19_t","Unrineweginfectie_t"]:
                 memory = 32
                 exec_time = "00:5:00"  # 1 minutes
-            elif data in ["Sepsis_t","Traffic_t","CreditReq_t", "BPIC15_t"]:
+            elif data in ["Traffic_t"]:
+                memory=40
+            elif data in ["Sepsis_t","CreditReq_t", "BPIC15_t"]:
                 memory = 32
                 exec_time = "00:20:00"  # 7 minutes
             elif data in [ "Hospital_t"]:
