@@ -48,7 +48,7 @@ alphas=[2,10,100]
 
 for data in datasets:
 
-    for eps in epsilons:
+    for alpha in alphas:
 
 
         for iteration in range(start_iteration, no_of_iterations):
@@ -85,12 +85,12 @@ for data in datasets:
                 exec_time = "30:00:00"  # 5 hours
 
 
-            job_name = os.path.join(jobs_dir,"j_%s_%s.sh" % (data, eps))
-            job_log_name =os.path.join(jobs_dir,"l_%s_%s.txt" % (data,eps))
+            job_name = os.path.join(jobs_dir,"j_%s_%s.sh" % (data, alpha))
+            job_log_name =os.path.join(jobs_dir,"l_%s_%s.txt" % (data,alpha))
 
             with open(job_name, "w") as fout:
                 fout.write("#!/bin/bash\n")
-                fout.write("#SBATCH --output=jobs/l_%s_%s.txt" % (data,eps))
+                fout.write("#SBATCH --output=jobs/l_%s_%s.txt" % (data,alpha))
                 fout.write("#SBATCH --mem=%sGB\n" % memory)
                 fout.write("#SBATCH --ntasks=1\n")  ## Run on a single CPU
                 #fout.write("#SBATCH --cpus-per-task=12\n")  # 8 cores per cpu
@@ -106,7 +106,7 @@ for data in datasets:
                 fout.write("python -u %s \"%s\" %s %s %s %s %s \n"
                            %('"'+os.path.join(dir_path,"Libra.py")+'"',
                                                        data,
-                                                       eps,
+                                                       b,
                                                        gamma,
                                                        alpha,
                              epsilon_in_minutes,
