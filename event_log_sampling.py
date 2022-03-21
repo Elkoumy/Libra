@@ -153,59 +153,65 @@ def per_lot_sampling(sample, epsilon_in_minutes):
         new_edge=False
         start_time=time.time()
 
-        edges=sample_dfg.loc[case].to_dict()['difference']
-        # edges=edges.groupby(['concept:name', 'concept:name_2']).difference.sum().to_dict()
-        end_time = time.time()
-        total_get_dfg_time+=end_time-start_time
-        # print("get dfg time: %s Seconds" % (str(end_time - start_time)))
+        try:
+            edges=sample_dfg.loc[case].to_dict()['difference']
+            # edges=edges.groupby(['concept:name', 'concept:name_2']).difference.sum().to_dict()
+            end_time = time.time()
+            total_get_dfg_time += end_time - start_time
+            # print("get dfg time: %s Seconds" % (str(end_time - start_time)))
+            start_time = time.time()
+            for edge in edges:
+                if edge not in edge_list:
+                    new_information_gained = True
+                    edge_list.append(edge)
+            end_time = time.time()
+            total_new_edge_loop += end_time - start_time
 
-        start_time=time.time()
-        for edge in edges:
-            if edge not in edge_list:
-                new_information_gained= True
-                edge_list.append(edge)
-        end_time = time.time()
-        total_new_edge_loop+=end_time-start_time
-        # print("new edge loop : %s Seconds" % (str(end_time - start_time)))
-        #changes in the average cycle time by epsilon
-        #timedelta in hours
+            # print("new edge loop : %s Seconds" % (str(end_time - start_time)))
+            # changes in the average cycle time by epsilon
+            # timedelta in hours
 
-        cycle_time=(current_case['time:timestamp'].iloc[-1]- current_case['time:timestamp'].iloc[0])/ pd.Timedelta('1 minute')
+            cycle_time = (current_case['time:timestamp'].iloc[-1] - current_case['time:timestamp'].iloc[
+                0]) / pd.Timedelta('1 minute')
 
-
-        if new_information_gained:
-            cycle_time_list=cycle_time_list.append(pd.Series(cycle_time), ignore_index=True)
-        else:
-
-            #todo: enhance the following code block
-            avg_cycle_time=cycle_time_list.sum()/cycle_time_list.size
-            avg_new=(cycle_time_list.sum()+cycle_time)/(cycle_time_list.size+1)
-            #make the cycle time change to be epsilon
-            diff = math.fabs(avg_new-avg_cycle_time)
-            if diff >epsilon_in_minutes:
-                new_information_gained = True
-                cycle_time_list=cycle_time_list.append(pd.Series(cycle_time), ignore_index=True)
-
-        start_time=time.time()
-        #changes average time on edge by epsilon
-        for edge in list(edges.keys()):
-            if edge in edge_time_list:
-                #compare
-                avg_edge_time=sum(edge_time_list[edge])/len(edge_time_list[edge])
-                new_avg_edge_time = (sum(edge_time_list[edge])+ edges[edge])/ (len(edge_time_list[edge])+1)
-
-                if avg_edge_time >0:
-                    diff = math.fabs(avg_edge_time - new_avg_edge_time)
-                    # make the edge time change to be epsilon
-                    if diff > epsilon_in_minutes:
-                        new_information_gained = True
-                        edge_time_list[edge].append(edges[edge])
+            if new_information_gained:
+                cycle_time_list = cycle_time_list.append(pd.Series(cycle_time), ignore_index=True)
             else:
-                new_information_gained = True
-                edge_time_list[edge]=[edges[edge]]
-        end_time=time.time()
-        total_edge_average_time_loop+=end_time-start_time
-        # print("edge average time loop: %s Seconds" %(str(end_time - start_time)))
+
+                # todo: enhance the following code block
+                avg_cycle_time = cycle_time_list.sum() / cycle_time_list.size
+                avg_new = (cycle_time_list.sum() + cycle_time) / (cycle_time_list.size + 1)
+                # make the cycle time change to be epsilon
+                diff = math.fabs(avg_new - avg_cycle_time)
+                if diff > epsilon_in_minutes:
+                    new_information_gained = True
+                    cycle_time_list = cycle_time_list.append(pd.Series(cycle_time), ignore_index=True)
+
+            start_time = time.time()
+            # changes average time on edge by epsilon
+            for edge in list(edges.keys()):
+                if edge in edge_time_list:
+                    # compare
+                    avg_edge_time = sum(edge_time_list[edge]) / len(edge_time_list[edge])
+                    new_avg_edge_time = (sum(edge_time_list[edge]) + edges[edge]) / (len(edge_time_list[edge]) + 1)
+
+                    if avg_edge_time > 0:
+                        diff = math.fabs(avg_edge_time - new_avg_edge_time)
+                        # make the edge time change to be epsilon
+                        if diff > epsilon_in_minutes:
+                            new_information_gained = True
+                            edge_time_list[edge].append(edges[edge])
+                else:
+                    new_information_gained = True
+                    edge_time_list[edge] = [edges[edge]]
+            end_time = time.time()
+            total_edge_average_time_loop += end_time - start_time
+            # print("edge average time loop: %s Seconds" %(str(end_time - start_time)))
+        except:
+            x=0
+
+
+
 
         # update counters
         if not new_information_gained:
