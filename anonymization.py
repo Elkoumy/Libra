@@ -4,7 +4,7 @@ import numpy as np
 from utilities_module import get_relative_time
 import math
 from scipy.stats import laplace
-
+from trace_variant_noise_injection import anonymize_traces_compacted
 
 
 def clip_rare_traces(log,eps,delta):
@@ -74,6 +74,11 @@ def draw_sample(log, prob):
 
 
 def anonymize_sample(sample,eps):
+
+    #trace variant anonymization
+    mode='sampling'
+    sample=anonymize_traces_compacted(sample, mode,eps)
+
     #get relative time
     sample=get_relative_time(sample)
 

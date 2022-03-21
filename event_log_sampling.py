@@ -121,7 +121,12 @@ def per_lot_sampling(sample, epsilon_in_minutes):
         new_information_gained=False
         #new event
         start_time=time.time()
-        activities= current_case['concept:name'].unique().tolist()
+
+        if len(current_case.shape)==1:
+            break
+
+
+        activities = current_case['concept:name'].unique().tolist()
         for activity in activities:
             if activity not in activity_list:
                 new_information_gained=True
