@@ -80,15 +80,21 @@ def anonymize_sample(sample,eps):
     sample=anonymize_traces_compacted(sample, mode,eps)
 
     #get relative time
-    sample=get_relative_time(sample)
+    # sample=get_relative_time(sample)
 
     #add noise to relative time
+    # print(sample.shape[0])
+    if sample.shape[0]==0:
+        return sample
+
     sample['noise']= sample.apply(add_noise,eps=eps, axis=1)
     sample['relative_time']=sample['relative_time']+sample.noise
 
     #return the time to the original time
     sample=relative_time_to_timestamp(sample)
     return sample
+
+
 
 def add_noise(data,eps):
 

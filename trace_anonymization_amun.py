@@ -284,7 +284,7 @@ def execute_oversampling(data,duplicated_traces):
         cases_more_than_once = cases_more_than_once[cases_more_than_once > 0]
 
     end = time.time()
-    print("loop of duplication: %s" % (end - start))
+    # print("loop of duplication: %s" % (end - start))
     return data
 
 
@@ -380,8 +380,8 @@ def anonymize_traces_compacted(data,  eps):
 
 
 
-    print("******** end of loop ****")
-    print("iter=:%s"%(iter))
+    # print("******** end of loop ****")
+    # print("iter=:%s"%(iter))
 
 
     # print("no of iteration = %s"%(iter))

@@ -6,7 +6,7 @@ from event_log_sampling import main_anonymization
 from utilities_module import read_event_log_xes
 from pm4py.objects.conversion.log import factory as conversion_factory
 from pm4py.objects.log.exporter.xes import factory as xes_exporter
-
+from input_module import xes_to_DAFSA
 
 def anonymize_event_log(event_log, b=2, gamma=0.05, alpha=5,epsilon_in_minutes=20,delta=1e-4):
     start_time = time.time()
@@ -14,7 +14,9 @@ def anonymize_event_log(event_log, b=2, gamma=0.05, alpha=5,epsilon_in_minutes=2
     data_dir = os.path.join(cur_dir, 'data')
     out_dir = os.path.join(cur_dir, "output")
 
-    log = read_event_log_xes(os.path.join(data_dir, event_log + ".xes"))
+    # log = read_event_log_xes(os.path.join(data_dir, event_log + ".xes"))
+
+    log,vars =xes_to_DAFSA(os.path.join(data_dir, event_log + ".xes"))
 
     sampled, eps_after_composition = main_anonymization(log, gamma, b, epsilon_in_minutes, alpha, delta)
     if not type(sampled) == type(0):

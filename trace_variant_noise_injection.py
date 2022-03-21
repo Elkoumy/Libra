@@ -174,7 +174,8 @@ def pick_random_edge_trace_compacted_positive(bit_vector_df, bit_vector_trace_va
     end=time.time()
     # print("reversed_normalization : %s" %(end-start))
 
-    picked_edge_index =need_noise.sample(weights=edge_sampling_weights).index[0]
+    # picked_edge_index = need_noise.sample(weights=edge_sampling_weights).index[0]
+    picked_edge_index =need_noise.sample().index[0]
     # picked_edge_index = need_noise.sample().index[0]
 
     # pick random trace variant
@@ -193,7 +194,9 @@ def pick_random_edge_trace_compacted_positive(bit_vector_df, bit_vector_trace_va
     # trace_sampling_weights = traces/ traces.sum()
     #picking traces as the noise size
     temp=bit_vector_df.loc[picked_edge_index,'noise']
-    picked_trace = traces.sample(n=bit_vector_df.loc[picked_edge_index,'noise'], weights=trace_sampling_weights, replace=True)
+    # picked_trace = traces.sample(n=bit_vector_df.loc[picked_edge_index,'noise'], weights=trace_sampling_weights, replace=True)
+    picked_trace = traces.sample(n=bit_vector_df.loc[picked_edge_index, 'noise'],
+                                 replace=True)
 
     start=time.time()
 
@@ -228,7 +231,8 @@ def pick_random_edge_trace_compacted_negative(bit_vector_df, bit_vector_trace_va
     end = time.time()
     # print("reversed_normalization : %s" %(end-start))
 
-    picked_edge_index = need_noise.sample(weights=edge_sampling_weights).index[0]
+    # picked_edge_index = need_noise.sample(weights=edge_sampling_weights).index[0]
+    picked_edge_index = need_noise.sample().index[0]
     # picked_edge_index = need_noise.sample().index[0]
 
     # pick random trace variant
@@ -250,8 +254,10 @@ def pick_random_edge_trace_compacted_negative(bit_vector_df, bit_vector_trace_va
     #taking absolute noise for sampling
     bit_vector_df_abs=bit_vector_df[[ 'noise','subtracted_noise']]
     bit_vector_df_abs.noise=bit_vector_df_abs.noise.abs()
-    picked_trace = traces.sample(n=bit_vector_df_abs.loc[picked_edge_index, 'noise'], weights=trace_sampling_weights,
+    picked_trace = traces.sample(n=bit_vector_df_abs.loc[picked_edge_index, 'noise'],
                                  replace=True)
+    # picked_trace = traces.sample(n=bit_vector_df_abs.loc[picked_edge_index, 'noise'], weights=trace_sampling_weights,
+    #                              replace=True)
 
     start = time.time()
 
@@ -307,7 +313,7 @@ def execute_oversampling(data,duplicated_traces):
     # take out the duplicated case id
     cases_more_than_once = duplicated_cases.groupby(['case:concept:name'])['case:concept:name'].count()
     end=time.time()
-    print("sampling time: %s" %(end-start))
+    # print("sampling time: %s" %(end-start))
 
     # all the cases only once
     duplicated_cases=duplicated_cases['case:concept:name'].unique()
@@ -330,7 +336,7 @@ def execute_oversampling(data,duplicated_traces):
         cases_more_than_once = cases_more_than_once[cases_more_than_once > 0]
 
     end = time.time()
-    print("loop of duplication: %s" % (end - start))
+    # print("loop of duplication: %s" % (end - start))
     return data
 
 
@@ -413,6 +419,8 @@ def anonymize_traces_compacted(data,mode, eps):
         data = trace_anonymization_sampling(data, eps)
     elif mode=='oversampling':
         data = trace_anonymization_oversampling(data,eps)
+
+    data=data[['case:concept:name','concept:name','time:timestamp','relative_time','start_event']]
     return data
 
 
@@ -470,8 +478,8 @@ def trace_anonymization_sampling(data, eps):
         iter += 1
         loop_end = time.time()
         # print("loop time: %s" %(loop_end-loop_start))
-    print("******** end of loop ****")
-    print("iter=:%s" % (iter))
+    # print("******** end of loop ****")
+    # print("iter=:%s" % (iter))
     """Deciding traces to oversampling and traces to undersample"""
     deleted_traces_series = pd.Series(deleted_traces)
     deleted_counts = deleted_traces_series.value_counts()
