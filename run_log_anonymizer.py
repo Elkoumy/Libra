@@ -25,7 +25,7 @@ jobs_dir = "jobs"
 datasets = ["CCC19_t",  "Unrineweginfectie_t", "Sepsis_t","Traffic_t", "Hospital_t", "CreditReq_t", "BPIC15_t","BPIC20_t", "BPIC13_t",
 "BPIC12_t", "BPIC17_t", "BPIC14_t", "BPIC19_t" ]
 
-datasets=["Traffic_t","BPIC18_t"]
+datasets=["Sepsis_t"]
 
 
 
@@ -39,12 +39,13 @@ exec_time="01:00:00" # 1 hour
 no_of_iterations =1
 start_iteration=0
 
-gamma = 0.01
+gamma = 0.05
 epsilon_in_minutes = 10
 alpha = 5
 delta = 1e-3
 
 alphas=[2,10,100]
+alphas=[10]
 
 
 
