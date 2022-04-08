@@ -2,7 +2,8 @@
 import os
 import subprocess
 import time
-from Libra import anonymize_event_log
+
+from Libra.Libra import anonymize_event_log
 dir_path = os.path.dirname(os.path.realpath(__file__))
 jobs_dir = "jobs"
 
@@ -27,7 +28,7 @@ datasets = ["CCC19_t",  "Unrineweginfectie_t", "Sepsis_t","Traffic_t", "Hospital
 
 datasets=["Sepsis_t"]
 
-
+engines=["amun"]
 
 b=2
 memory = 4
@@ -52,5 +53,7 @@ alphas=[10]
 for data in datasets:
 
     for alpha in alphas:
-        anonymize_event_log(data,b,gamma,alpha,epsilon_in_minutes, delta)
+        for engine in engines:
+            if engine == "amun":
+                anonymize_event_log(data,b,gamma,alpha,epsilon_in_minutes, delta)
 
