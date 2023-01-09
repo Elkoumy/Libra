@@ -26,7 +26,7 @@ if __name__ == "__main__":
 
     start_time = time.time()
     # read event log
-    event_log="Traffic_t"
+    event_log="CreditReq_t"
 
     # log=read_event_log('data/%s.csv'%(event_log))
 

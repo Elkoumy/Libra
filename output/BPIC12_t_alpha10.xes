@@ -1,0 +1,3085 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<log>
+  <string key="origin" value="csv"/>
+  <trace>
+    <string key="concept:name" value="1971710"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2012-01-03T11:45:42.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-02T13:35:07.713+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2012-01-03T11:44:28.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-02T13:35:07.940+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2012-01-03T11:44:56.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-02T13:35:40.012+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="2021340"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2012-01-18T11:57:29.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-18T19:57:35.525+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2012-01-18T11:56:36.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-18T19:57:36.157+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2012-01-19T01:32:36.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-19T09:33:27.260+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Afhandelen leads"/>
+      <date key="time:timestamp" value="2012-01-19T01:32:20.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-19T09:33:29.929+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="1872380"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2011-11-19T14:22:50.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-18T20:49:25.171+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2011-11-19T14:22:22.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-18T20:49:25.356+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PREACCEPTED"/>
+      <date key="time:timestamp" value="2011-11-20T03:02:05.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-19T09:29:45.775+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Afhandelen leads"/>
+      <date key="time:timestamp" value="2011-11-20T03:02:16.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-19T09:29:47.547+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2011-11-20T04:01:49.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-19T10:30:42.393+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2011-11-22T02:05:57.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-21T08:34:21.783+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2011-11-22T06:10:49.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-21T12:37:42.767+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2011-11-22T10:17:27.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-21T16:43:33.343+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2011-11-22T10:15:50.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-21T16:43:36.908+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="13400"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2012-01-02T16:53:16.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-02T19:40:59.193+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2012-01-02T16:56:56.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-02T19:40:59.306+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PREACCEPTED"/>
+      <date key="time:timestamp" value="2012-01-02T16:59:26.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-02T19:43:31.524+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Afhandelen leads"/>
+      <date key="time:timestamp" value="2012-01-02T16:58:40.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-02T19:43:33.273+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2012-01-03T08:25:39.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-03T11:12:46.716+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2012-01-03T09:37:40.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-03T12:23:58.223+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2012-01-03T16:26:58.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-03T19:12:52.649+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2012-01-04T14:47:59.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-04T17:34:05.137+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2012-01-04T14:51:38.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-04T17:34:08.328+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="1934251"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2011-12-15T10:29:33.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-14T08:15:01.310+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2011-12-15T10:29:15.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-14T08:15:02.937+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2011-12-15T10:31:35.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-14T08:15:39.951+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="1937801"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2011-12-16T07:20:26.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-15T12:45:58.560+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2011-12-16T07:21:45.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-15T12:45:58.672+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2011-12-16T07:37:37.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-15T13:00:35.189+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Afhandelen leads"/>
+      <date key="time:timestamp" value="2011-12-16T07:37:27.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-15T13:00:38.603+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="2117931"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2012-02-22T14:22:40.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-22T13:20:09.562+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2012-02-22T14:19:37.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-22T13:20:09.666+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PREACCEPTED"/>
+      <date key="time:timestamp" value="2012-02-22T14:20:41.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-22T13:20:40.281+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_CANCELLED"/>
+      <date key="time:timestamp" value="2012-02-22T19:29:51.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-22T18:30:39.184+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2012-02-22T19:30:19.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-22T18:30:40.494+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="1989421"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2012-01-07T16:10:31.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-08T00:22:14.770+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2012-01-07T16:10:00.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-08T00:22:15.277+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PREACCEPTED"/>
+      <date key="time:timestamp" value="2012-01-09T00:47:42.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-09T08:57:36.145+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Afhandelen leads"/>
+      <date key="time:timestamp" value="2012-01-09T00:48:13.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-09T08:57:37.428+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2012-01-09T05:29:14.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-09T13:39:00.116+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2012-01-09T09:18:51.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-09T17:28:21.631+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2012-01-09T11:28:48.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-09T19:37:34.674+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2012-01-11T02:22:07.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-11T10:34:21.621+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2012-01-11T02:24:41.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-11T10:34:25.403+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="1936922"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2011-12-14T14:33:31.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-14T23:58:31.694+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2011-12-14T14:34:32.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-14T23:58:31.852+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2011-12-14T14:36:26.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-14T23:59:16.310+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="2088142"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2012-02-14T18:54:38.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-13T12:19:11.529+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2012-02-14T18:55:35.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-13T12:19:11.915+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PREACCEPTED"/>
+      <date key="time:timestamp" value="2012-02-14T18:55:43.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-13T12:19:55.682+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2012-02-14T21:06:00.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-13T14:30:08.710+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_CANCELLED"/>
+      <date key="time:timestamp" value="2012-02-15T18:40:57.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-14T12:04:55.058+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2012-02-15T18:40:40.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-14T12:04:57.227+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="2099602"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2012-02-13T02:45:58.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-15T21:33:01.908+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2012-02-13T02:46:33.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-15T21:33:03.331+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2012-02-13T14:36:28.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-16T09:23:04.836+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Afhandelen leads"/>
+      <date key="time:timestamp" value="2012-02-13T14:36:11.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-16T09:23:09.340+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="12962"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2012-02-20T20:01:58.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-21T22:17:59.396+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2012-02-20T20:03:11.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-21T22:17:59.864+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2012-02-21T09:34:20.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-22T11:48:42.413+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Afhandelen leads"/>
+      <date key="time:timestamp" value="2012-02-21T09:32:24.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-22T11:48:45.794+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="12982"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2012-02-23T03:02:44.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-22T07:07:14.767+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2012-02-23T03:03:22.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-22T07:07:15.047+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PREACCEPTED"/>
+      <date key="time:timestamp" value="2012-02-23T03:03:51.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-22T07:07:58.846+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2012-02-23T08:06:52.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-22T12:11:56.120+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2012-02-23T10:21:48.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-22T14:27:55.194+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_CANCELLED"/>
+      <date key="time:timestamp" value="2012-02-23T14:48:43.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-22T18:54:23.289+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2012-02-23T14:54:42.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-22T18:54:24.848+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="2056163"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2012-02-01T06:06:53.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-01T13:35:03.162+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2012-02-01T06:03:04.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-01T13:35:03.350+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2012-02-01T06:02:58.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-01T13:35:34.911+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="2095233"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2012-02-14T03:04:44.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-14T22:39:35.982+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2012-02-14T03:04:46.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-14T22:39:36.129+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2012-02-14T13:36:31.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-15T09:11:40.697+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Afhandelen leads"/>
+      <date key="time:timestamp" value="2012-02-14T13:37:31.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-15T09:11:43.469+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="1827683"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2011-11-09T16:16:37.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-07T12:07:32.784+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2011-11-09T16:16:47.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-07T12:07:33.236+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PREACCEPTED"/>
+      <date key="time:timestamp" value="2011-11-09T16:17:59.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-07T12:08:08.493+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_CANCELLED"/>
+      <date key="time:timestamp" value="2011-11-09T21:58:19.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-07T17:53:38.276+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2011-11-09T21:57:28.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-07T17:53:40.697+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="13143"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2012-02-22T13:23:06.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-23T09:10:17.232+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2012-02-22T13:25:07.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-23T09:10:17.523+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PREACCEPTED"/>
+      <date key="time:timestamp" value="2012-02-22T13:24:23.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-23T09:11:01.399+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2012-02-22T15:07:51.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-23T10:54:38.349+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2012-02-22T15:45:46.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-23T11:31:50.212+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2012-02-22T15:46:39.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-23T11:31:55.684+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="1881374"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2011-11-23T03:11:31.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-22T14:49:46.024+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2011-11-23T03:12:02.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-22T14:49:46.519+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2011-11-23T03:11:51.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-22T14:50:22.885+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="2116004"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2012-02-21T17:12:53.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-21T20:26:02.627+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2012-02-21T17:12:50.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-21T20:26:02.970+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2012-02-22T06:20:05.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-22T09:33:41.912+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Afhandelen leads"/>
+      <date key="time:timestamp" value="2012-02-22T06:20:06.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-22T09:33:45.553+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="2032094"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2012-01-23T03:00:53.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-23T12:09:35.717+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2012-01-23T03:01:23.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-23T12:09:35.893+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PREACCEPTED"/>
+      <date key="time:timestamp" value="2012-01-23T02:59:42.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-23T12:10:11.353+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_CANCELLED"/>
+      <date key="time:timestamp" value="2012-01-23T05:48:27.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-23T14:57:50.393+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2012-01-23T05:49:18.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-23T14:57:51.715+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="2012894"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2012-01-16T02:38:48.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-16T10:56:56.757+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2012-01-16T02:40:04.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-16T10:56:56.907+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PREACCEPTED"/>
+      <date key="time:timestamp" value="2012-01-16T02:41:08.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-16T10:58:44.194+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Afhandelen leads"/>
+      <date key="time:timestamp" value="2012-01-16T02:40:27.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-16T10:58:45.185+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2012-01-16T02:44:30.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-16T11:00:42.888+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2012-01-16T02:46:25.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-16T11:01:25.970+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2012-01-16T02:47:59.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-16T11:02:05.073+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2012-01-16T03:07:04.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-16T11:21:01.781+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2012-01-16T03:08:09.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-16T11:21:05.575+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="13484"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2011-10-17T08:45:57.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-15T20:07:24.325+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2011-10-17T08:46:45.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-15T20:07:24.477+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PREACCEPTED"/>
+      <date key="time:timestamp" value="2011-10-17T08:43:26.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-15T20:07:58.999+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2011-10-18T20:03:37.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-17T07:28:30.921+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2011-11-03T07:56:46.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-01T19:23:08.085+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2011-11-03T08:07:05.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-01T19:36:19.720+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_CANCELLED"/>
+      <date key="time:timestamp" value="2011-11-03T23:05:38.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-02T10:35:10.239+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2011-11-03T23:07:03.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-02T10:35:11.693+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="1958875"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2011-12-28T04:20:30.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-27T17:00:35.347+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2011-12-28T04:16:26.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-27T17:00:35.632+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2011-12-28T04:16:55.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-27T17:01:08.149+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="1793145"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2011-10-23T21:10:00.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-23T19:59:05.664+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2011-10-23T21:04:25.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-23T19:59:05.735+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PREACCEPTED"/>
+      <date key="time:timestamp" value="2011-10-23T21:03:53.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-23T19:59:40.519+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2011-10-24T12:33:28.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-24T11:27:51.590+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_CANCELLED"/>
+      <date key="time:timestamp" value="2011-10-25T16:32:23.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-25T15:29:01.506+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2011-10-25T16:31:47.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-25T15:29:03.629+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="1834535"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2011-11-09T21:44:16.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-09T13:00:20.374+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2011-11-09T21:47:26.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-09T13:00:20.648+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2011-11-09T22:14:44.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-09T13:27:50.358+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Afhandelen leads"/>
+      <date key="time:timestamp" value="2011-11-09T22:15:51.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-09T13:27:53.775+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="1869205"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2011-11-18T10:57:06.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-18T09:54:17.184+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2011-11-18T10:57:42.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-18T09:54:17.682+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PREACCEPTED"/>
+      <date key="time:timestamp" value="2011-11-18T10:53:08.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-18T09:54:59.797+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2011-11-18T12:38:19.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-18T11:42:10.380+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2011-11-18T12:36:11.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-18T11:42:13.754+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="1997826"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2012-01-13T19:45:27.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-11T08:33:22.263+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2012-01-13T19:48:13.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-11T08:33:23.845+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2012-01-13T19:48:47.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-11T08:33:56.461+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="1961326"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2011-12-29T07:34:13.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-28T15:08:11.071+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2011-12-29T07:34:25.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-28T15:08:11.310+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2011-12-29T09:29:05.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-28T17:05:34.691+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Afhandelen leads"/>
+      <date key="time:timestamp" value="2011-12-29T09:28:32.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-28T17:05:37.627+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="2019876"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2012-01-15T23:44:17.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-18T11:38:43.358+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2012-01-15T23:42:03.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-18T11:38:43.911+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PREACCEPTED"/>
+      <date key="time:timestamp" value="2012-01-16T00:13:50.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-18T12:10:12.620+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Afhandelen leads"/>
+      <date key="time:timestamp" value="2012-01-16T00:10:54.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-18T12:10:13.653+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2012-01-16T00:22:03.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-18T12:21:11.492+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2012-01-16T01:52:11.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-18T13:50:28.124+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2012-01-16T01:50:50.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-18T13:50:31.418+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="1769127"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2011-10-14T05:09:24.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-14T08:35:10.472+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2011-10-14T05:09:55.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-14T08:35:10.912+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2011-10-14T05:10:52.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-14T08:36:03.762+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="1844247"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2011-11-10T17:07:28.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-11T09:03:30.947+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2011-11-10T17:07:59.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-11T09:03:31.171+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2011-11-10T17:30:16.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-11T09:32:40.791+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Afhandelen leads"/>
+      <date key="time:timestamp" value="2011-11-10T17:28:34.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-11T09:32:43.302+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="1942367"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2011-12-17T05:21:25.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-17T15:31:21.149+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2011-12-17T05:15:06.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-17T15:31:22.006+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PREACCEPTED"/>
+      <date key="time:timestamp" value="2011-12-17T05:14:41.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-17T15:32:02.894+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2011-12-18T22:22:16.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-19T08:39:38.352+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2011-12-19T03:06:21.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-19T13:23:32.016+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2011-12-19T03:32:11.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-19T13:49:59.224+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_CANCELLED"/>
+      <date key="time:timestamp" value="2011-12-19T06:10:18.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-19T16:29:15.607+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2011-12-19T06:10:04.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-19T16:29:18.083+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="2112938"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2012-02-20T00:50:39.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-20T19:34:57.380+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2012-02-20T00:48:17.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-20T19:34:57.644+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2012-02-20T00:47:19.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-20T19:35:37.012+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="1759348"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2011-10-12T16:32:45.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-10T11:45:55.560+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2011-10-12T16:32:18.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-10T11:45:56.923+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2011-10-12T16:46:43.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-10T11:59:53.528+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Afhandelen leads"/>
+      <date key="time:timestamp" value="2011-10-12T16:48:40.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-10T11:59:56.689+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="1909598"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2011-12-02T17:59:32.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-03T14:23:04.452+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2011-12-02T18:00:18.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-03T14:23:06.265+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PREACCEPTED"/>
+      <date key="time:timestamp" value="2011-12-02T18:05:11.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-03T14:27:21.991+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Afhandelen leads"/>
+      <date key="time:timestamp" value="2011-12-02T18:04:51.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-03T14:27:23.926+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_CANCELLED"/>
+      <date key="time:timestamp" value="2011-12-02T19:13:33.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-03T15:35:27.383+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2011-12-02T19:13:37.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-03T15:35:29.709+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="1938678"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2011-12-14T21:13:58.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-15T19:50:18.109+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2011-12-14T21:14:37.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-15T19:50:18.225+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PREACCEPTED"/>
+      <date key="time:timestamp" value="2011-12-14T21:14:54.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-15T19:50:55.994+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_CANCELLED"/>
+      <date key="time:timestamp" value="2011-12-15T15:52:38.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-16T14:27:11.260+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2011-12-15T15:50:54.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-16T14:27:12.629+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="13098"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2011-10-14T14:52:29.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-14T13:24:54.268+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2011-10-14T14:50:55.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-14T13:24:54.739+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PREACCEPTED"/>
+      <date key="time:timestamp" value="2011-10-14T15:21:24.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-14T13:53:47.545+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Afhandelen leads"/>
+      <date key="time:timestamp" value="2011-10-14T15:21:44.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-14T13:53:49.013+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2011-10-14T15:52:14.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-14T14:24:35.341+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2011-10-14T15:53:44.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-14T14:24:38.673+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="1909209"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2011-12-04T20:39:36.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-03T11:19:32.671+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2011-12-04T20:38:37.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-03T11:19:33.090+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2011-12-04T20:39:10.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-03T11:20:16.524+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="2018129"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2012-01-18T18:59:36.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-17T19:40:55.935+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2012-01-18T18:59:14.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-17T19:40:57.504+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2012-01-18T19:12:18.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-17T19:55:16.288+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Afhandelen leads"/>
+      <date key="time:timestamp" value="2012-01-18T19:14:12.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-17T19:55:20.180+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="1741959"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2011-10-03T16:24:51.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-03T17:32:45.026+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2011-10-03T16:25:31.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-03T17:32:45.189+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PREACCEPTED"/>
+      <date key="time:timestamp" value="2011-10-03T16:36:36.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-03T17:42:16.566+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Afhandelen leads"/>
+      <date key="time:timestamp" value="2011-10-03T16:36:52.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-03T17:42:17.653+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_CANCELLED"/>
+      <date key="time:timestamp" value="2011-10-03T17:47:43.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-03T18:52:58.373+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2011-10-03T17:47:35.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-03T18:52:59.826+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="17902610"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2011-10-22T01:21:33.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-22T09:24:21.025+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2011-10-22T01:19:59.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-22T09:24:21.341+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2011-10-22T01:21:04.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-22T09:24:59.187+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="19365910"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2011-12-15T16:12:03.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-14T20:40:19.372+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2011-12-15T16:09:20.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-14T20:40:19.558+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PREACCEPTED"/>
+      <date key="time:timestamp" value="2011-12-15T16:09:20.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-14T20:41:00.351+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2011-12-16T06:14:39.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-15T10:41:47.517+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_CANCELLED"/>
+      <date key="time:timestamp" value="2011-12-16T13:20:26.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-15T17:47:43.553+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2011-12-16T13:19:46.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-15T17:47:45.306+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="17789310"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2011-10-18T10:30:00.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-18T15:23:28.837+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2011-10-18T10:31:18.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-18T15:23:29.007+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2011-10-18T11:03:26.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-18T15:53:49.932+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Afhandelen leads"/>
+      <date key="time:timestamp" value="2011-10-18T11:03:53.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-18T15:53:53.153+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="18686010"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2011-11-18T12:28:18.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-18T08:03:54.071+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2011-11-18T12:28:43.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-18T08:03:54.276+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PREACCEPTED"/>
+      <date key="time:timestamp" value="2011-11-18T12:34:22.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-18T08:10:24.772+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Afhandelen leads"/>
+      <date key="time:timestamp" value="2011-11-18T12:35:56.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-18T08:10:26.201+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2011-11-18T13:18:44.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-18T08:51:55.293+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2011-11-18T13:18:11.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-18T08:51:58.484+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="132610"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2012-02-10T10:35:34.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-09T12:39:32.283+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2012-02-10T10:35:39.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-09T12:39:32.428+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Afhandelen leads"/>
+      <date key="time:timestamp" value="2012-02-10T10:46:58.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-09T12:55:53.989+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Afhandelen leads"/>
+      <date key="time:timestamp" value="2012-02-10T10:46:50.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-09T12:56:05.907+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2012-02-10T10:47:29.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-09T12:58:27.263+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Afhandelen leads"/>
+      <date key="time:timestamp" value="2012-02-10T10:48:20.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-09T12:58:31.599+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="20492111"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2012-01-31T18:40:20.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-30T09:33:58.539+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2012-01-31T18:41:16.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-30T09:33:58.636+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2012-01-31T18:42:05.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-30T09:34:36.251+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="20419411"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2012-01-27T14:31:58.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-26T11:31:19.229+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2012-01-27T14:30:25.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-26T11:31:19.657+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Afhandelen leads"/>
+      <date key="time:timestamp" value="2012-01-27T15:01:44.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-26T12:01:25.616+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2012-01-27T15:27:45.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-26T12:23:47.651+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Afhandelen leads"/>
+      <date key="time:timestamp" value="2012-01-27T15:27:58.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-26T12:23:50.787+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="18093511"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2011-11-01T02:03:32.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-31T09:33:18.445+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2011-11-01T02:03:18.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-31T09:33:18.571+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PREACCEPTED"/>
+      <date key="time:timestamp" value="2011-11-01T02:18:36.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-31T09:48:52.982+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Afhandelen leads"/>
+      <date key="time:timestamp" value="2011-11-01T02:18:44.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-31T09:48:53.871+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_CANCELLED"/>
+      <date key="time:timestamp" value="2011-11-01T05:42:32.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-31T13:09:38.790+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2011-11-01T05:43:18.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-31T13:09:40.179+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="132511"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2012-01-01T11:31:47.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-03T14:10:54.007+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2012-01-01T11:31:57.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-03T14:10:54.104+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PREACCEPTED"/>
+      <date key="time:timestamp" value="2012-01-01T11:32:38.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-03T14:11:46.707+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2012-01-01T15:53:57.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-03T18:34:38.093+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_CANCELLED"/>
+      <date key="time:timestamp" value="2012-01-02T10:38:51.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-04T13:19:19.324+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2012-01-02T10:41:32.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-04T13:19:20.919+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="133111"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2011-10-23T01:03:54.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-23T19:59:05.664+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2011-10-23T01:04:24.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-23T19:59:05.735+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PREACCEPTED"/>
+      <date key="time:timestamp" value="2011-10-23T01:04:41.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-23T19:59:40.519+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2011-10-23T16:32:33.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-24T11:27:51.590+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_CANCELLED"/>
+      <date key="time:timestamp" value="2011-10-24T20:34:02.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-25T15:29:01.506+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2011-10-24T20:35:26.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-25T15:29:03.629+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="143011"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2011-12-01T23:43:59.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-02T16:03:32.177+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2011-12-01T23:43:31.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-02T16:03:32.432+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Afhandelen leads"/>
+      <date key="time:timestamp" value="2011-12-01T23:49:37.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-02T16:09:56.094+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Afhandelen leads"/>
+      <date key="time:timestamp" value="2011-12-01T23:53:17.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-02T16:13:41.084+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2011-12-02T01:38:44.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-02T17:59:02.642+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Afhandelen leads"/>
+      <date key="time:timestamp" value="2011-12-02T01:38:26.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-02T17:59:07.516+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="17502112"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2011-10-06T03:52:06.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-06T09:49:18.199+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2011-10-06T03:53:13.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-06T09:49:18.399+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2011-10-06T03:54:18.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-06T09:50:00.331+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="18471512"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2011-11-14T21:09:32.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-12T02:41:56.572+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2011-11-14T21:08:41.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-12T02:41:58.483+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2011-11-15T04:50:59.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-12T10:23:15.266+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Afhandelen leads"/>
+      <date key="time:timestamp" value="2011-11-15T04:49:46.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-12T10:23:18.765+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="19986312"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2012-01-12T07:55:45.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-11T13:30:27.621+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2012-01-12T07:55:21.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-11T13:30:27.772+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PREACCEPTED"/>
+      <date key="time:timestamp" value="2012-01-12T08:41:16.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-11T14:16:54.342+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Afhandelen leads"/>
+      <date key="time:timestamp" value="2012-01-12T08:42:54.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-11T14:16:55.490+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2012-01-12T14:09:04.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-11T19:43:04.065+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2012-01-12T14:09:40.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-11T19:43:07.333+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="18292412"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2011-11-06T09:35:35.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-07T18:32:26.916+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2011-11-06T09:33:16.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-07T18:32:27.008+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PREACCEPTED"/>
+      <date key="time:timestamp" value="2011-11-06T09:33:40.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-07T18:33:00.275+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2011-11-07T00:16:56.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-08T09:18:13.421+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2011-11-07T05:58:26.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-08T14:59:57.181+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_CANCELLED"/>
+      <date key="time:timestamp" value="2011-11-07T08:56:42.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-08T17:59:10.351+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2011-11-07T08:53:40.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-08T17:59:12.615+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="21250913"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2012-02-24T14:07:04.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-24T14:29:02.418+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2012-02-24T14:06:40.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-24T14:29:02.672+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2012-02-24T14:08:34.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-24T14:29:39.264+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="21415413"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2012-02-26T08:32:33.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-29T14:46:51.372+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2012-02-26T08:32:47.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-29T14:46:51.710+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2012-02-26T08:37:02.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-29T14:52:16.526+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Afhandelen leads"/>
+      <date key="time:timestamp" value="2012-02-26T08:37:02.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-29T14:52:20.548+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="18117813"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2011-10-31T06:56:33.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-31T20:20:08.404+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2011-10-31T06:57:36.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-31T20:20:08.563+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PREACCEPTED"/>
+      <date key="time:timestamp" value="2011-10-31T19:50:25.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-01T09:11:53.584+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Afhandelen leads"/>
+      <date key="time:timestamp" value="2011-10-31T19:49:25.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-01T09:11:54.598+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2011-10-31T20:16:52.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-01T09:39:50.889+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2011-10-31T20:16:40.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-01T09:39:54.270+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="19423613"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2011-12-17T21:16:04.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-17T15:31:21.149+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2011-12-17T21:15:30.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-17T15:31:22.006+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PREACCEPTED"/>
+      <date key="time:timestamp" value="2011-12-17T21:16:04.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-17T15:32:02.894+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2011-12-19T14:24:07.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-19T08:39:38.352+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2011-12-19T19:07:29.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-19T13:23:32.016+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2011-12-19T19:35:26.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-19T13:49:59.224+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_CANCELLED"/>
+      <date key="time:timestamp" value="2011-12-19T22:13:00.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-19T16:29:15.607+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2011-12-19T22:12:05.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-19T16:29:18.083+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="20350714"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2012-01-24T04:01:08.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-24T10:00:47.393+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2012-01-24T04:01:15.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-24T10:00:49.463+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2012-01-24T03:58:06.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-24T10:01:22.824+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="20657314"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2012-02-04T20:38:27.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-05T11:38:43.609+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2012-02-04T20:37:49.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-05T11:38:43.847+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2012-02-05T17:30:43.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-06T08:31:15.979+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Afhandelen leads"/>
+      <date key="time:timestamp" value="2012-02-05T17:29:52.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-06T08:31:19.296+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="20530114"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2012-01-30T01:42:07.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-31T13:32:18.194+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2012-01-30T01:41:07.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-31T13:32:18.388+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PREACCEPTED"/>
+      <date key="time:timestamp" value="2012-01-30T01:41:17.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-31T13:32:55.004+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_CANCELLED"/>
+      <date key="time:timestamp" value="2012-01-30T02:20:39.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-31T14:10:52.396+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2012-01-30T02:18:35.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-31T14:10:54.712+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="17814915"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2011-10-18T23:35:39.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-19T10:04:07.463+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2011-10-18T23:35:36.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-19T10:04:07.568+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2011-10-18T23:34:54.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-19T10:04:46.909+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="19080315"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2011-12-03T08:48:12.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-02T16:09:41.458+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2011-12-03T08:47:34.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-02T16:09:41.942+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2011-12-03T10:40:17.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-02T18:00:32.548+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Afhandelen leads"/>
+      <date key="time:timestamp" value="2011-12-03T10:42:17.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-02T18:00:35.968+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="17553115"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2011-10-09T13:08:30.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-08T08:18:53.472+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2011-10-09T13:10:39.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-08T08:18:53.606+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PREACCEPTED"/>
+      <date key="time:timestamp" value="2011-10-09T13:13:29.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-08T08:22:07.022+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Afhandelen leads"/>
+      <date key="time:timestamp" value="2011-10-09T13:16:22.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-08T08:22:08.194+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2011-10-09T13:23:28.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-08T08:27:37.989+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2011-10-09T13:22:46.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-08T08:27:42.353+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="18807715"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2011-11-22T23:31:21.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-22T11:17:12.693+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2011-11-22T23:30:37.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-22T11:17:13.277+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PREACCEPTED"/>
+      <date key="time:timestamp" value="2011-11-22T23:35:51.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-22T11:18:03.764+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_CANCELLED"/>
+      <date key="time:timestamp" value="2011-11-22T23:55:05.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-22T11:38:10.636+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2011-11-22T23:56:03.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-22T11:38:13.513+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="18869615"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2011-11-28T12:27:41.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-24T11:24:24.566+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2011-11-28T12:28:59.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-24T11:24:24.810+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PREACCEPTED"/>
+      <date key="time:timestamp" value="2011-11-28T12:31:27.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-24T11:25:11.888+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2011-11-28T17:26:11.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-24T16:22:58.173+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2011-11-29T14:53:55.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-25T13:49:48.844+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2011-11-29T15:16:28.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-25T14:13:27.970+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2011-11-29T15:16:48.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-25T14:13:31.213+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="126415"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2012-01-31T22:55:07.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-01T17:58:15.693+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2012-01-31T22:54:44.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-01T17:58:15.859+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Afhandelen leads"/>
+      <date key="time:timestamp" value="2012-02-01T00:07:21.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-01T19:10:54.997+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2012-02-01T00:21:35.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-01T19:25:31.622+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Afhandelen leads"/>
+      <date key="time:timestamp" value="2012-02-01T00:21:15.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-01T19:25:34.904+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="17655416"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2011-10-13T22:28:16.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-12T17:47:24.083+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2011-10-13T22:28:31.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-12T17:47:24.198+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2011-10-13T22:29:13.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-12T17:47:55.378+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="20529216"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2012-01-31T15:22:08.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-31T13:02:03.695+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2012-01-31T15:22:39.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-31T13:02:03.978+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PREACCEPTED"/>
+      <date key="time:timestamp" value="2012-01-31T15:32:32.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-31T13:11:58.427+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Afhandelen leads"/>
+      <date key="time:timestamp" value="2012-01-31T15:30:49.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-31T13:11:59.542+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2012-01-31T17:30:17.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-31T15:10:36.008+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2012-01-31T21:03:08.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-31T18:45:24.617+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2012-01-31T21:07:11.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-31T18:48:04.788+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2012-01-31T21:12:13.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-31T18:48:08.106+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="17834416"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2011-10-19T17:28:12.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-19T16:45:09.801+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2011-10-19T17:27:42.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-19T16:45:09.978+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2011-10-19T18:03:59.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-19T17:26:11.691+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Afhandelen leads"/>
+      <date key="time:timestamp" value="2011-10-19T18:00:26.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-19T17:26:14.675+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="21321916"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2012-02-26T11:32:49.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-27T10:41:41.396+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2012-02-26T11:32:17.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-27T10:41:41.796+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PREACCEPTED"/>
+      <date key="time:timestamp" value="2012-02-26T12:14:46.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-27T11:24:33.078+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Afhandelen leads"/>
+      <date key="time:timestamp" value="2012-02-26T12:15:11.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-27T11:24:36.093+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_CANCELLED"/>
+      <date key="time:timestamp" value="2012-02-27T15:02:50.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-28T14:12:05.410+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2012-02-27T14:58:12.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-28T14:12:07.161+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="133616"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2011-11-25T13:57:55.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-24T11:25:43.152+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2011-11-25T13:57:24.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-24T11:25:43.286+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PREACCEPTED"/>
+      <date key="time:timestamp" value="2011-11-25T13:58:05.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-24T11:26:19.860+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2011-11-25T18:15:19.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-24T15:46:12.846+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2011-11-25T18:54:14.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-24T16:25:03.663+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2011-11-25T18:54:48.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-24T16:25:05.874+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="21180817"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2012-02-23T05:21:01.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-22T13:50:32.930+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2012-02-23T05:22:05.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-22T13:50:33.129+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2012-02-23T05:26:14.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-22T13:51:12.295+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="17847117"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2011-10-19T14:45:21.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-19T23:37:22.298+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2011-10-19T14:46:04.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-19T23:37:22.598+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Afhandelen leads"/>
+      <date key="time:timestamp" value="2011-10-19T22:32:23.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-20T07:23:55.548+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2011-10-19T22:52:30.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-20T07:41:35.195+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Afhandelen leads"/>
+      <date key="time:timestamp" value="2011-10-19T22:53:04.000+00:00"/>
+      <date key="org_timestamp" value="2011-10-20T07:41:38.559+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="19723117"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2011-12-31T08:35:34.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-02T14:56:57.011+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2011-12-31T08:37:01.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-02T14:56:57.111+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PREACCEPTED"/>
+      <date key="time:timestamp" value="2011-12-31T08:37:47.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-02T14:57:32.317+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2011-12-31T12:53:25.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-02T19:11:26.097+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2012-01-05T08:38:28.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-07T14:59:27.681+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2012-01-07T03:15:56.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-09T09:38:09.411+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_CANCELLED"/>
+      <date key="time:timestamp" value="2012-01-07T07:18:36.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-09T13:40:11.910+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2012-01-07T07:18:07.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-09T13:40:13.364+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="132417"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2012-01-18T09:04:55.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-18T19:02:39.754+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2012-01-18T09:05:29.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-18T19:02:40.422+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PREACCEPTED"/>
+      <date key="time:timestamp" value="2012-01-18T09:13:34.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-18T19:10:52.378+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Afhandelen leads"/>
+      <date key="time:timestamp" value="2012-01-18T09:12:31.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-18T19:10:53.611+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2012-01-18T09:28:48.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-18T19:23:23.401+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2012-01-20T01:41:50.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-20T11:36:41.188+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2012-01-20T09:52:53.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-20T19:46:02.800+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2012-01-23T22:50:24.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-24T08:41:19.624+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2012-01-23T22:50:28.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-24T08:41:22.729+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="134017"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2012-01-19T06:38:30.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-18T19:02:39.754+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2012-01-19T06:38:07.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-18T19:02:40.422+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PREACCEPTED"/>
+      <date key="time:timestamp" value="2012-01-19T06:46:53.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-18T19:10:52.378+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Afhandelen leads"/>
+      <date key="time:timestamp" value="2012-01-19T06:50:59.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-18T19:10:53.611+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2012-01-19T07:04:58.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-18T19:23:23.401+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2012-01-20T23:20:29.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-20T11:36:41.188+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2012-01-21T07:30:37.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-20T19:46:02.800+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2012-01-24T20:25:38.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-24T08:41:19.624+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2012-01-24T20:25:31.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-24T08:41:22.729+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="136117"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2012-02-27T00:11:49.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-24T15:20:52.176+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2012-02-27T00:11:24.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-24T15:20:52.383+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PREACCEPTED"/>
+      <date key="time:timestamp" value="2012-02-27T00:45:21.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-24T15:55:10.743+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Afhandelen leads"/>
+      <date key="time:timestamp" value="2012-02-27T00:47:09.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-24T15:55:12.037+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2012-02-27T01:26:01.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-24T16:34:29.894+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2012-02-27T02:33:10.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-24T17:41:03.532+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2012-02-27T02:43:16.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-24T17:51:08.809+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2012-02-27T03:16:15.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-24T18:21:42.032+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2012-02-27T03:16:06.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-24T18:21:46.615+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="139417"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2012-01-18T23:23:42.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-18T19:02:39.754+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2012-01-18T23:24:08.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-18T19:02:40.422+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PREACCEPTED"/>
+      <date key="time:timestamp" value="2012-01-18T23:32:53.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-18T19:10:52.378+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Afhandelen leads"/>
+      <date key="time:timestamp" value="2012-01-18T23:33:46.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-18T19:10:53.611+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2012-01-18T23:44:39.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-18T19:23:23.401+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2012-01-20T15:59:50.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-20T11:36:41.188+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2012-01-21T00:08:19.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-20T19:46:02.800+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2012-01-24T13:03:56.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-24T08:41:19.624+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2012-01-24T13:04:10.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-24T08:41:22.729+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="18989218"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2011-11-27T22:50:34.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-29T15:39:26.390+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2011-11-27T22:51:59.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-29T15:39:26.545+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2011-11-27T22:51:06.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-29T15:39:59.399+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="19963018"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2012-01-10T17:14:39.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-10T15:32:18.392+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2012-01-10T17:15:38.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-10T15:32:18.522+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2012-01-10T17:25:35.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-10T15:43:23.029+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Afhandelen leads"/>
+      <date key="time:timestamp" value="2012-01-10T17:27:04.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-10T15:43:26.719+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="21315318"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2012-02-29T06:47:00.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-27T09:01:46.833+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2012-02-29T06:46:14.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-27T09:01:47.352+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PREACCEPTED"/>
+      <date key="time:timestamp" value="2012-02-29T06:47:43.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-27T09:02:23.032+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2012-02-29T06:52:41.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-27T09:08:37.168+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2012-02-29T06:53:22.000+00:00"/>
+      <date key="org_timestamp" value="2012-02-27T09:08:41.802+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="18597519"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2011-11-16T08:41:24.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-16T17:50:23.521+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2011-11-16T08:41:55.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-16T17:50:23.674+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2011-11-16T08:36:57.000+00:00"/>
+      <date key="org_timestamp" value="2011-11-16T17:51:01.172+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="19042919"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2011-12-02T22:08:17.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-01T11:58:06.631+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2011-12-02T22:06:05.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-01T11:58:07.365+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PREACCEPTED"/>
+      <date key="time:timestamp" value="2011-12-02T22:24:00.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-01T12:16:05.655+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Afhandelen leads"/>
+      <date key="time:timestamp" value="2011-12-02T22:24:04.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-01T12:16:07.160+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2011-12-03T00:21:44.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-01T14:13:37.097+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2011-12-03T00:20:53.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-01T14:13:40.330+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="19843319"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2012-01-05T06:12:01.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-05T19:15:12.717+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2012-01-05T06:14:58.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-05T19:15:12.977+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Afhandelen leads"/>
+      <date key="time:timestamp" value="2012-01-05T06:55:33.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-05T19:57:13.142+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2012-01-05T19:27:52.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-06T08:27:18.797+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Afhandelen leads"/>
+      <date key="time:timestamp" value="2012-01-05T19:27:56.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-06T08:27:21.730+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="20009719"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2012-01-14T09:38:55.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-11T22:42:39.902+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2012-01-14T09:38:43.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-11T22:42:41.907+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PREACCEPTED"/>
+      <date key="time:timestamp" value="2012-01-14T19:09:06.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-12T08:09:37.796+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Afhandelen leads"/>
+      <date key="time:timestamp" value="2012-01-14T19:10:55.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-12T08:09:38.772+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_CANCELLED"/>
+      <date key="time:timestamp" value="2012-01-15T01:35:47.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-12T14:33:25.551+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2012-01-15T01:34:50.000+00:00"/>
+      <date key="org_timestamp" value="2012-01-12T14:33:26.808+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="133819"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2011-12-23T23:28:40.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-24T23:18:09.142+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2011-12-23T23:28:30.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-24T23:18:11.894+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PREACCEPTED"/>
+      <date key="time:timestamp" value="2011-12-23T23:30:34.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-24T23:18:57.679+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2011-12-25T11:33:43.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-26T11:21:55.444+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2011-12-25T11:41:15.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-26T11:29:16.342+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2011-12-25T15:10:04.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-26T14:58:08.443+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_CANCELLED"/>
+      <date key="time:timestamp" value="2011-12-26T10:02:41.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-27T09:51:41.668+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2011-12-26T10:02:24.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-27T09:51:43.625+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="134019"/>
+    <event>
+      <string key="concept:name" value="A_SUBMITTED"/>
+      <date key="time:timestamp" value="2011-12-05T14:23:41.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-03T15:48:26.804+00:00"/>
+      <boolean key="start_event" value="true"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PARTLYSUBMITTED"/>
+      <date key="time:timestamp" value="2011-12-05T14:22:03.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-03T15:48:27.077+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_PREACCEPTED"/>
+      <date key="time:timestamp" value="2011-12-05T14:33:56.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-03T16:00:22.842+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Afhandelen leads"/>
+      <date key="time:timestamp" value="2011-12-05T14:33:37.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-03T16:00:24.004+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2011-12-05T14:36:13.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-03T16:02:29.612+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2011-12-07T07:37:00.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-05T09:02:57.986+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2011-12-07T07:58:41.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-05T09:24:38.856+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="A_DECLINED"/>
+      <date key="time:timestamp" value="2011-12-07T10:27:37.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-05T11:53:02.227+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+    <event>
+      <string key="concept:name" value="W_Completeren aanvraag"/>
+      <date key="time:timestamp" value="2011-12-07T10:29:25.000+00:00"/>
+      <date key="org_timestamp" value="2011-12-05T11:53:05.581+00:00"/>
+      <boolean key="start_event" value="false"/>
+    </event>
+  </trace>
+</log>

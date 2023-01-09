@@ -279,7 +279,7 @@ def get_DAFSA_Dictionary(dataset):
     cur_dir = os.path.dirname(os.path.realpath(__file__))
     root_dir=os.path.join(cur_dir, 'data')
     data_dir = os.path.join(cur_dir, 'data')
-    # os.system("java -Xmx32g -jar \"%s\" \"%s\" \"%s\"" %(os.path.join(root_dir,"XEStoDAFSA","XEStoDAFSA.jar"),data_dir,dataset+".xes"))
+    os.system("java -Xmx32g -jar \"%s\" \"%s\" \"%s\"" %(os.path.join(root_dir,"XEStoDAFSA","XEStoDAFSA.jar"),data_dir,dataset+".xes"))
 
     dafsa={}
     path=os.path.join(data_dir,dataset+".xes.txt")
